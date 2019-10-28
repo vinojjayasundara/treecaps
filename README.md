@@ -16,7 +16,7 @@
 
 Our system comprises three main steps as follows:
 
-<p align="center"><img src="https://www.dropbox.com/s/hxdb8fj50tao9g5/1.eps?dl=0"></p>
+<p align="center"><img src="https://www.dropbox.com/s/p7dj3nv9ylrvcq0/1-eps-converted-to-1.png?dl=0"></p>
 <p align="center">(a) TreeCaps approach Overview. The source codes are parsed, vectorized and fed into the proposed TreeCaps network for the program classification task.</p>
 
 <p align="center"><img src="https://www.dropbox.com/s/4jj1ffshh0ogjh3/sys_block_2_crop.png?dl=0&raw=1"></p>
