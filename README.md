@@ -25,7 +25,7 @@ Our system comprises three main steps as follows:
 <p align="center"><img src="https://www.dropbox.com/s/33idr0grw4t0sg2/3-eps-converted-to-1.png?dl=0&raw=1"></p>
 <p align="center">(c) Variable-to-Static Routing, which routes a variable set of capsules to generate a static set of capsules</p>
 
-<p align="center"><img src="https://www.dropbox.com/s/w8riczi0t6hpmkr/4-eps-converted-to-1.png?dl=0&raw=1"></p>
+<p align="center"><img src="https://www.dropbox.com/s/w8riczi0t6hpmkr/4-eps-converted-to-1.png?dl=0&raw=1" width="200"></p>
 <p align="center">(d) Dynamic Routing between the Primary Static Capsules and the Code Capsules</p>
 
 ## Usage
