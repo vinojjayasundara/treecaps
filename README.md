@@ -1,6 +1,6 @@
 # TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing.
 
-<p aligh="center"> This repository contains the code for TreeCaps introduced in the following paper <bold>TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing (NeurIPS Workshops 2019) </bold> </p>
+<p aligh="center"> This repository contains the code for TreeCaps introduced in the following paper <b>TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing (NeurIPS Workshops 2019) </b> </p>
 
 [Vinoj Jayasundara](https://scholar.google.com.sg/citations?user=2yTeZ58AAAAJ&hl=en&oi=ao), [Nghi Duy Quoc Bui](https://scholar.google.com/citations?user=QwybxYsAAAAJ&hl=en&oi=ao), [Lingxiao Jiang](https://scholar.google.com/citations?user=0hssXLPZL2YC&hl=en&oi=ao), [David Lo](https://scholar.google.com/citations?user=Ra4bt-oAAAAJ&hl=en&oi=ao)
 
@@ -15,13 +15,13 @@
 
 Our system comprises three main steps as follows:
 
-<p align="center"><img src="https://www.dropbox.com/s/p7dj3nv9ylrvcq0/1-eps-converted-to-1.png?dl=0&raw=1"></p>
+<p align="center"><img src="https://www.dropbox.com/s/p7dj3nv9ylrvcq0/1-eps-converted-to-1.png?dl=0&raw=1" width="700"></p>
 <p align="center">(a) TreeCaps approach Overview. The source codes are parsed, vectorized and fed into the proposed TreeCaps network for the program classification task</p>
 
-<p align="center"><img src="https://www.dropbox.com/s/oixaxg0wetojhrr/2-eps-converted-to-1.png?dl=0&raw=1"></p>
+<p align="center"><img src="https://www.dropbox.com/s/oixaxg0wetojhrr/2-eps-converted-to-1.png?dl=0&raw=1" width="600"></p>
 <p align="center">(b) Tree Vectorization, which generates the AST from the source code and vectorizes it using an embedding generation technique</p>
 
-<p align="center"><img src="https://www.dropbox.com/s/33idr0grw4t0sg2/3-eps-converted-to-1.png?dl=0&raw=1"></p>
+<p align="center"><img src="https://www.dropbox.com/s/33idr0grw4t0sg2/3-eps-converted-to-1.png?dl=0&raw=1" width="600"></p>
 <p align="center">(c) Variable-to-Static Routing, which routes a variable set of capsules to generate a static set of capsules</p>
 
 <p align="center"><img src="https://www.dropbox.com/s/w8riczi0t6hpmkr/4-eps-converted-to-1.png?dl=0&raw=1" width="500"></p>
