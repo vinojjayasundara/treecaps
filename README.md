@@ -16,7 +16,7 @@
 
 Our system comprises three main steps as follows:
 
-<p align="center"><img src="https://drive.google.com/open?id=1FiLLh9qqU86KQ4XTz1PKYPIOXihmNnJD"></p>
+<p align="center"><img src="https://www.dropbox.com/s/nbb8uzyv144q4t6/1-eps-converted-to.pdf?dl=0"></p>
 <p align="center">(a) TreeCaps approach Overview. The source codes are parsed, vectorized and fed into the proposed TreeCaps network for the program classification task.</p>
 
 <p align="center"><img src="https://www.dropbox.com/s/4jj1ffshh0ogjh3/sys_block_2_crop.png?dl=0&raw=1"></p>
@@ -31,10 +31,14 @@ Our system comprises three main steps as follows:
 ## Usage
 
 1. Install [requirements.txt](https://github.com/vinojjayasundara/treecaps/blob/master/requirements.txt) and the required dependencies ```pip install -r requirements.txt```.
-2. Clone this repo: ```git clone https://github.com/vinojjayasundara/treecaps.git```
+
+2. Clone this repo: ```git clone https://github.com/vinojjayasundara/treecaps.git```.
+
 3. Download and extract the [dataset](https://drive.google.com/open?id=1qdLNPjlNfGSLm9SdbQE6Me8K7Cp4W_ee) and the pre-trained [embedding](https://drive.google.com/open?id=10QTTj6Abhnpay7UPmDdS8uHPfAlxAq8m).
-4. Simply run ```python job.py```
-5. Note the following in the ```job.py```
+
+4. Simply run ```python job.py```.
+
+5. Note the following in the ```job.py``` :
 
 * Set ```training = 1``` for training the model and ```training = 0``` for testing.
 * Uncomment the lines ```18-20``` in ```job.py``` to continue training with a reduced learning rate.
