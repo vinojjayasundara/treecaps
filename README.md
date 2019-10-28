@@ -1,6 +1,6 @@
 # TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing.
 
-<p aligh="center"> This repository contains the code for TreeCaps introduced in the following paper **TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing** (NeurIPS Workshops 2019) </p>
+<p aligh="center"> This repository contains the code for TreeCaps introduced in the following paper <bold>TreeCaps: Tree-Structured Capsule Networks for Program Source Code Processing (NeurIPS Workshops 2019) </bold> </p>
 
 [Vinoj Jayasundara](https://scholar.google.com.sg/citations?user=2yTeZ58AAAAJ&hl=en&oi=ao), [Nghi Duy Quoc Bui](https://scholar.google.com/citations?user=QwybxYsAAAAJ&hl=en&oi=ao), [Lingxiao Jiang](https://scholar.google.com/citations?user=0hssXLPZL2YC&hl=en&oi=ao), [David Lo](https://scholar.google.com/citations?user=Ra4bt-oAAAAJ&hl=en&oi=ao)
 
@@ -24,7 +24,7 @@ Our system comprises three main steps as follows:
 <p align="center"><img src="https://www.dropbox.com/s/33idr0grw4t0sg2/3-eps-converted-to-1.png?dl=0&raw=1"></p>
 <p align="center">(c) Variable-to-Static Routing, which routes a variable set of capsules to generate a static set of capsules</p>
 
-<p align="center"><img src="https://www.dropbox.com/s/w8riczi0t6hpmkr/4-eps-converted-to-1.png?dl=0&raw=1" width="800"></p>
+<p align="center"><img src="https://www.dropbox.com/s/w8riczi0t6hpmkr/4-eps-converted-to-1.png?dl=0&raw=1" width="500"></p>
 <p align="center">(d) Dynamic Routing between the Primary Static Capsules and the Code Capsules</p>
 
 ## Usage
@@ -44,15 +44,23 @@ Our system comprises three main steps as follows:
 
 ## Performance
 
+### Datasets
+
+We used three datasets in three programming languages to ensure cross-language robustness:
+
+* [**Dataset A:**](https://github.com/crestonbunch/tbcnn) contains 6 classes of sorting algorithms, with 346 training programs on average per class, written in Python. 
+* [**Dataset B:**](https://github.com/bdqnghi/tbcnn-attention) contains 10 classes of sorting algorithms, with 64 training programs on average per class, written in Java. 
+* [**Dataset C:**](https://github.com/bdqnghi/tbcnn-attention) contains 104 classes of C programs, with 375 training programs on average per class. 
+
 <p align="justify">Comparison of TreeCaps with other approaches. The means and the standard deviations from 3 trials are shown.</p>
 
 Model | Dataset A | Dataset B | Dataset C   
 -------|:-------:|:--------:|:--------:|
-GGNN (Allamanis et al.) |95.36 ± 0.30% |92.79 ± 0.30% |92.79 ± 0.30%     
-TBCNN (Mou et al.) |90.46 ± 0.22% |87.82 ± 0.25% |92.79 ± 0.30%   
--------|:-------:|:--------:|:--------:|
-TreeCaps |99.79 ± 0.11% |98.96 ± 0.22% |92.79 ± 0.30%   
-TreeCaps (3-ensembles) |99.71 ± 0.18% |98.68 ± 0.30% |92.79 ± 0.30%    
+GGNN (Allamanis et al.) | - |85.00% |86.52%     
+TBCNN (Mou et al.) |99.30% |75.00% |79.40%   
+TreeCaps |100.00 ± 0.00% |92.11 ± 0.90% |87.95 ± 0.23%   
+TreeCaps (3-ensembles) |100.00% |94.08% |89.41%    
+
 
 ## We credit
 We have used [this](https://github.com/naturomics/CapsNet-Tensorflow) as the base CapsNet implementation and [this](https://github.com/crestonbunch/tbcnn) as the base Tree-based convolution implementation. We thank and credit the contributors of these repositories.
