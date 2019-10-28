@@ -39,8 +39,8 @@ Our system comprises three main steps as follows:
 
 5. Note the following in the ```job.py``` :
 
-&nbsp;&nbsp;&nbsp;&nbsp; * Set ```training = 1``` for training the model and ```training = 0``` for testing. </br>
-&nbsp;&nbsp;&nbsp;&nbsp; * Uncomment the lines ```18-20``` in ```job.py``` to continue training with a reduced learning rate.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Set ```training = 1``` for training the model and ```training = 0``` for testing. </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * Uncomment the lines ```18-20``` in ```job.py``` to continue training with a reduced learning rate.
 
 ## Performance
 
